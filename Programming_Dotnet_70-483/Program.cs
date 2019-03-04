@@ -6,7 +6,7 @@ namespace Programming_Dotnet_70483
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
