@@ -13,7 +13,7 @@ namespace ConsumData
 
         private void connectToDB()
         {
-            var connString = "Host=localhosr;Username=palmonoczki;Password=;Database=palmonoczki";
+            var connString = "Host=127.0.0.1;Port=5432;Username=palmonoczki;Password=;Database=palmonoczki";
 
             using (var conn = new NpgsqlConnection(connString))
             {
@@ -21,10 +21,10 @@ namespace ConsumData
 
              
 
-                using (var cmd = new NpgsqlCommand("SELECT some_field FROM products", conn))
+                using (var cmd = new NpgsqlCommand("SELECT * FROM products", conn))
                 using (var reader = cmd.ExecuteReader())
                     while (reader.Read())
-                        Console.WriteLine(reader.GetString(1));
+                        Console.WriteLine(reader.GetString(0));
             }
 
         }
