@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeData", "Programming_Dotnet_70-483\ConsumeData.csproj", "{F91D787A-02B5-4888-8CA9-1EE1ABA6C524}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumData", "ConsumData\ConsumData.csproj", "{44C46B61-01BE-4927-9CC4-66E593476AB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +9,9 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F91D787A-02B5-4888-8CA9-1EE1ABA6C524}.Debug|x86.ActiveCfg = Debug|x86
-		{F91D787A-02B5-4888-8CA9-1EE1ABA6C524}.Debug|x86.Build.0 = Debug|x86
-		{F91D787A-02B5-4888-8CA9-1EE1ABA6C524}.Release|x86.ActiveCfg = Release|x86
-		{F91D787A-02B5-4888-8CA9-1EE1ABA6C524}.Release|x86.Build.0 = Release|x86
+		{44C46B61-01BE-4927-9CC4-66E593476AB9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44C46B61-01BE-4927-9CC4-66E593476AB9}.Debug|x86.Build.0 = Debug|Any CPU
+		{44C46B61-01BE-4927-9CC4-66E593476AB9}.Release|x86.ActiveCfg = Release|Any CPU
+		{44C46B61-01BE-4927-9CC4-66E593476AB9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
